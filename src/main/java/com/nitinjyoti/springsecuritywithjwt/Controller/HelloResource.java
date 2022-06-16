@@ -11,4 +11,9 @@ public class HelloResource {
     public String hello(){
         return "Hello Darshan its working like charm";
     }
+
+    @RequestMapping({"/test"})
+    public String test(){
+        return "testing the development branch ";
+    }
 }
